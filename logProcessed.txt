@@ -1,188 +1,248 @@
-I/art     (14276): Late-enabling -Xcheck:jni
-
-
-
-I/InstantRun(14276): starting instant run server: is main process
-
-
-
-D/RfidSdkWrapper(14276): Creating new instance
-
-
-
-I/System.out(14276): loadPairedDevices RFD850016078523020084
-
-
-
-I/stetho  (14276): Listening on @stetho_com.mewozz.rfid_devtools_remote
-
-
-
-W/art     (14276): Suspending all threads took: 32.472ms
-
-
-
-I/art     (14276): Background sticky concurrent mark sweep GC freed 3672(338KB) AllocSpace objects, 0(0B) LOS objects, 0% free, 1563KB/1563KB, paused 35.101ms total 112.520ms
-
-
-
-W/art     (14276): Suspending all threads took: 19.412ms
-
-
-
-I/art     (14276): Background partial concurrent mark sweep GC freed 708(119KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 2MB/3MB, paused 20.848ms total 39.379ms
-
-
-
-W/art     (14276): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
-
-
-
-D/RFIDAPI3(14276): MESSAGE_STATE_CHANGE: 2
-
-
-
-W/BluetoothAdapter(14276): getBluetoothService() called with no BluetoothManagerCallback
-
-
-
-D/MainActivity(14276): RFID APP 123456789
-
-
-
-I/art     (14276): Background sticky concurrent mark sweep GC freed 171(8KB) AllocSpace objects, 0(0B) LOS objects, 2% free, 3MB/3MB, paused 5.129ms total 15.512ms
-
-
-
-D/SocketConn(14276): Socket connected
-
-
-
-D/OpenGLRenderer(14276): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
-
-
-
-D/Atlas   (14276): Validating map...
-
-
-
-D/libEGL  (14276): loaded /system/lib/egl/libEGL_tegra.so
-
-
-
-I/        (14276): Attempting to load EGL implementation /system/lib/egl/libEGL_tegra_impl
-
-
-
-I/        (14276): Loaded EGL implementation /system/lib/egl/libEGL_tegra_impl
-
-
-
-D/libEGL  (14276): loaded /system/lib/egl/libGLESv1_CM_tegra.so
-
-
-
-D/libEGL  (14276): loaded /system/lib/egl/libGLESv2_tegra.so
-
-
-
-I/OpenGLRenderer(14276): Initialized EGL, version 1.4
-
-
-
-I/        (14276): Loading GLESv2 implementation /system/lib/egl/libGLESv2_tegra_impl
-
-
-
-D/OpenGLRenderer(14276): Enabling debug mode 0
-
-
-
-W/art     (14276): Before Android 4.1, method int android.support.v7.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
-
-
-
-I/Timeline(14276): Timeline: Activity_idle id: android.os.BinderProxy@780587 time:346883450
-
-
-
-D/MainActivity(14276): device false
-
-
-
-D/MainActivity(14276): device false
-
-
-
-D/RFIDAPI3(14276): MESSAGE_STATE_CHANGE: 1
-
-
-
-D/RFIDAPI3(14276): ACTION_READER_CONN_FAILED, RFD850016078523020084
-
-
-
-D/RFIDAPI3(14276): MESSAGE_STATE_CHANGE: 0
-
-
-
-D/RFIDAPI3(14276): MESSAGE_STATE_CHANGE: 1
-
-
-
-D/RFIDAPI3(14276): MESSAGE_STATE_CHANGE: 1
-
-
-
-E/RfidSdkWrapper(14276): com.zebra.rfid.api3.OperationFailureException
-
-
-
-E/RfidSdkWrapper(14276): 	at com.zebra.rfid.api3.be.a(SourceFile:16)
-
-
-
-E/RfidSdkWrapper(14276): 	at com.zebra.rfid.api3.RFIDReader.connect(SourceFile:478)
-
-
-
-E/RfidSdkWrapper(14276): 	at com.mewozz.rfid.controller.RfidSdkWrapper.connect(RfidSdkWrapper.java:87)
-
-
-
-E/RfidSdkWrapper(14276): 	at com.mewozz.rfid.controller.RfidSdkWrapper$1.doInBackground(RfidSdkWrapper.java:108)
-
-
-
-E/RfidSdkWrapper(14276): 	at com.mewozz.rfid.controller.RfidSdkWrapper$1.doInBackground(RfidSdkWrapper.java:102)
-
-
-
-E/RfidSdkWrapper(14276): 	at android.os.AsyncTask$2.call(AsyncTask.java:292)
-
-
-
-E/RfidSdkWrapper(14276): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
-
-
-
-E/RfidSdkWrapper(14276): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
-
-
-
-E/RfidSdkWrapper(14276): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
-
-
-
-E/RfidSdkWrapper(14276): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
-
-
-
-E/RfidSdkWrapper(14276): 	at java.lang.Thread.run(Thread.java:818)
-
-
-
-D/MainActivity(14276): device false
-
-
-
+I/art     ( 9459): Late-enabling -Xcheck:jni
+I/InstantRun( 9459): starting instant run server: is main process
+D/RfidSdkWrapper( 9459): Creating new instance
+I/System.out( 9459): loadPairedDevices RFD850016078523020084
+I/stetho  ( 9459): Listening on @stetho_com.mewozz.rfid_devtools_remote
+D/MockTagStock( 9459): Mock tag exists, skipping
+D/RFIDAPI3( 9459): MESSAGE_STATE_CHANGE: 2
+W/BluetoothAdapter( 9459): getBluetoothService() called with no BluetoothManagerCallback
+W/art     ( 9459): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+W/art     ( 9459): Suspending all threads took: 5.789ms
+D/MainActivity( 9459): RFID APP 123456789
+D/SocketConn( 9459): Socket connected
+D/OpenGLRenderer( 9459): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+D/Atlas   ( 9459): Validating map...
+D/libEGL  ( 9459): loaded /system/lib/egl/libEGL_tegra.so
+I/        ( 9459): Attempting to load EGL implementation /system/lib/egl/libEGL_tegra_impl
+I/        ( 9459): Loaded EGL implementation /system/lib/egl/libEGL_tegra_impl
+D/libEGL  ( 9459): loaded /system/lib/egl/libGLESv1_CM_tegra.so
+D/libEGL  ( 9459): loaded /system/lib/egl/libGLESv2_tegra.so
+I/OpenGLRenderer( 9459): Initialized EGL, version 1.4
+I/        ( 9459): Loading GLESv2 implementation /system/lib/egl/libGLESv2_tegra_impl
+D/OpenGLRenderer( 9459): Enabling debug mode 0
+W/art     ( 9459): Before Android 4.1, method int android.support.v7.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+I/Timeline( 9459): Timeline: Activity_idle id: android.os.BinderProxy@1856418c time:6301828
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/RFIDAPI3( 9459): MESSAGE_STATE_CHANGE: 1
+D/RFIDAPI3( 9459): ACTION_READER_CONN_FAILED, RFD850016078523020084
+D/RFIDAPI3( 9459): MESSAGE_STATE_CHANGE: 0
+D/RFIDAPI3( 9459): MESSAGE_STATE_CHANGE: 1
+D/RFIDAPI3( 9459): MESSAGE_STATE_CHANGE: 1
+E/RfidSdkWrapper( 9459): com.zebra.rfid.api3.OperationFailureException
+E/RfidSdkWrapper( 9459): 	at com.zebra.rfid.api3.be.a(SourceFile:16)
+E/RfidSdkWrapper( 9459): 	at com.zebra.rfid.api3.RFIDReader.connect(SourceFile:478)
+E/RfidSdkWrapper( 9459): 	at com.mewozz.rfid.controller.RfidSdkWrapper.connect(RfidSdkWrapper.java:87)
+E/RfidSdkWrapper( 9459): 	at com.mewozz.rfid.controller.RfidSdkWrapper$1.doInBackground(RfidSdkWrapper.java:108)
+E/RfidSdkWrapper( 9459): 	at com.mewozz.rfid.controller.RfidSdkWrapper$1.doInBackground(RfidSdkWrapper.java:102)
+E/RfidSdkWrapper( 9459): 	at android.os.AsyncTask$2.call(AsyncTask.java:292)
+E/RfidSdkWrapper( 9459): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+E/RfidSdkWrapper( 9459): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+E/RfidSdkWrapper( 9459): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+E/RfidSdkWrapper( 9459): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+E/RfidSdkWrapper( 9459): 	at java.lang.Thread.run(Thread.java:818)
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/com.mewozz.logcollector.LogUploader$run$2( 9459): 200 File uploaded
+D/com.mewozz.logcollector.LogUploader$run$3( 9459): Uploaded
+E/StatusCheckThread( 9459): java.net.SocketTimeoutException: failed to connect to /118.189.75.47 (port 80) after 3000ms
+E/StatusCheckThread( 9459): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:169)
+E/StatusCheckThread( 9459): 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+E/StatusCheckThread( 9459): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+E/StatusCheckThread( 9459): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+E/StatusCheckThread( 9459): 	at java.net.Socket.connect(Socket.java:882)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:174)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.Connection.connect(Connection.java:152)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:276)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:382)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:332)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:500)
+E/StatusCheckThread( 9459): 	at com.mewozz.rfid.controller.StatusCheckThread$2.onFinish(StatusCheckThread.java:70)
+E/StatusCheckThread( 9459): 	at android.os.CountDownTimer$1.handleMessage(CountDownTimer.java:127)
+E/StatusCheckThread( 9459): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/StatusCheckThread( 9459): 	at android.os.Looper.loop(Looper.java:135)
+E/StatusCheckThread( 9459): 	at com.mewozz.rfid.controller.StatusCheckThread.run(StatusCheckThread.java:99)
+D/MainActivity( 9459): server false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+E/StatusCheckThread( 9459): java.net.SocketTimeoutException: failed to connect to /118.189.75.47 (port 80) after 3000ms
+E/StatusCheckThread( 9459): 	at libcore.io.IoBridge.connectErrno(IoBridge.java:169)
+E/StatusCheckThread( 9459): 	at libcore.io.IoBridge.connect(IoBridge.java:122)
+E/StatusCheckThread( 9459): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+E/StatusCheckThread( 9459): 	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+E/StatusCheckThread( 9459): 	at java.net.Socket.connect(Socket.java:882)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.Platform.connectSocket(Platform.java:174)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.Connection.connect(Connection.java:152)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:276)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:211)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:382)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:332)
+E/StatusCheckThread( 9459): 	at com.android.okhttp.internal.http.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:500)
+E/StatusCheckThread( 9459): 	at com.mewozz.rfid.controller.StatusCheckThread$2.onFinish(StatusCheckThread.java:70)
+E/StatusCheckThread( 9459): 	at android.os.CountDownTimer$1.handleMessage(CountDownTimer.java:127)
+E/StatusCheckThread( 9459): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/StatusCheckThread( 9459): 	at android.os.Looper.loop(Looper.java:135)
+E/StatusCheckThread( 9459): 	at com.mewozz.rfid.controller.StatusCheckThread.run(StatusCheckThread.java:99)
+D/MainActivity( 9459): server false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+I/art     ( 9459): Background sticky concurrent mark sweep GC freed 9525(842KB) AllocSpace objects, 2(601KB) LOS objects, 15% free, 8MB/10MB, paused 13.292ms total 77.657ms
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+W/art     ( 9459): Failed to find OatDexFile for DexFile /data/data/com.mewozz.rfid/files/instant-run/dex-temp/reload0x0000.dex ( canonical path /data/data/com.mewozz.rfid/files/instant-run/dex-temp/reload0x0000.dex) with checksum 0x52100d91 in OatFile /data/data/com.mewozz.rfid/cache/reload0x0000.dex
+W/ResourceType( 9459): Failure getting entry for 0x010804db (t=7 e=1243) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080012 (t=7 e=18) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x7f0c004d (t=11 e=77) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x7f020048 (t=1 e=72) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x7f02004c (t=1 e=76) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x7f02004a (t=1 e=74) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080274 (t=7 e=628) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080038 (t=7 e=56) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080012 (t=7 e=18) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010802a9 (t=7 e=681) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010803df (t=7 e=991) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010803db (t=7 e=987) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010803fb (t=7 e=1019) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010802a9 (t=7 e=681) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010805da (t=7 e=1498) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010804e6 (t=7 e=1254) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010804e6 (t=7 e=1254) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080525 (t=7 e=1317) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080027 (t=7 e=39) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080404 (t=7 e=1028) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010802a9 (t=7 e=681) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080270 (t=7 e=624) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080408 (t=7 e=1032) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010803e5 (t=7 e=997) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080400 (t=7 e=1024) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080096 (t=7 e=150) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x0108035b (t=7 e=859) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x0108035f (t=7 e=863) (error -75)
+D/SocketConn( 9459): Socket dc
+D/MainActivity( 9459): RFID APP 123456789
+D/SocketConn( 9459): Socket connected
+V/RenderScript( 9459): 0xae411e00 Launching thread(s), CPUs 4
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/com.mewozz.logcollector.LogUploader$run$2( 9459): 200 File uploaded
+D/com.mewozz.logcollector.LogUploader$run$3( 9459): Uploaded
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): device false
+D/MainActivity( 9459): server true
+D/MainActivity( 9459): device false
+W/ResourceType( 9459): Failure getting entry for 0x010804db (t=7 e=1243) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080012 (t=7 e=18) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x7f0c004d (t=11 e=77) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x7f020048 (t=1 e=72) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x7f02004c (t=1 e=76) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x7f02004a (t=1 e=74) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080274 (t=7 e=628) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080038 (t=7 e=56) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080012 (t=7 e=18) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010802a9 (t=7 e=681) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010803df (t=7 e=991) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010803db (t=7 e=987) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010803fb (t=7 e=1019) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010802a9 (t=7 e=681) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010805da (t=7 e=1498) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010804e6 (t=7 e=1254) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010804e6 (t=7 e=1254) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080525 (t=7 e=1317) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080027 (t=7 e=39) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080404 (t=7 e=1028) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010802a9 (t=7 e=681) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080270 (t=7 e=624) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080408 (t=7 e=1032) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x010803e5 (t=7 e=997) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080400 (t=7 e=1024) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x01080096 (t=7 e=150) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x0108035b (t=7 e=859) (error -75)
+W/ResourceType( 9459): Failure getting entry for 0x0108035f (t=7 e=863) (error -75)
+D/SocketConn( 9459): Socket dc
+D/MainActivity( 9459): RFID APP 123456789
+D/SocketConn( 9459): Socket connected
